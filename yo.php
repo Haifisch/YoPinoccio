@@ -23,7 +23,7 @@ if(!empty($_GET['username'])){
 	}else {
 		$ledOFF = $api->rest("get","/v1/{$troop}/{$scout}/command/led.off");
 	}
-	if (isset($ledReport['error'])) {
+	if (!isset($ledReport['error'])) {
 		$url = 'https://api.justyo.co/yo/';
 		$data = array('api_token' => $yotoken, 'username' => $_GET['username']);
 

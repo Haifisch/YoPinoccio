@@ -6,7 +6,7 @@ This is what happens when you find out Yo has an API.
 What it does
 ============
 
-When you set this up, you will be able to send a "yo" a Yo id and it will toggle your assigned scout's LED, the if all goes well on the Pinoccio API side, it will Yo you back as confirmation of the executed command. (Note; we are rate limited to 1 Yo per minute, I believe.)
+When you set this up, you will be able to send a "Yo" to a Yo id and it will toggle your assigned scout's LED or execute any ScoutScript command you want, the if all goes well on the Pinoccio API side, it will Yo you back as confirmation of the executed command. (Note; we are rate limited to 1 Yo per minute, I believe.)
 
 This is written in PHP, but should probably written in nodejs, cause PHP isn't exactly user friendly.
 
